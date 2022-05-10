@@ -4,3 +4,6 @@ dev:
 
 serve:
 	pipenv run mkdocs serve
+
+deploy:
+	pipenv run mkdocs gh-deploy --force
