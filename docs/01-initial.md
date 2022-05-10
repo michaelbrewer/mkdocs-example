@@ -24,3 +24,21 @@ Enable the Material theme in the `mkdocs.yml` file.
 theme:
   name: material
 ```
+
+Add SuperFences
+
+```yaml
+markdown_extensions:
+  - pymdownx.superfences
+```
+
+Add git revision date
+
+```shell
+pipenv install --dev mkdocs-git-revision-date-plugin
+```
+
+```yaml
+plugins:
+  - git-revision-date
+```

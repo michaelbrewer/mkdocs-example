@@ -11,3 +11,6 @@ theme:
 
 markdown_extensions:
   - pymdownx.superfences:
+
+plugins:
+  - git-revision-date
