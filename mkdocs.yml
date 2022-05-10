@@ -8,9 +8,23 @@ theme:
   name: material
   font:
     text: Ubuntu
+  palette:
+    - scheme: default
+      primary: deep orange
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+    - scheme: slate 
+      primary: green
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
 
 markdown_extensions:
   - pymdownx.superfences:
+  - toc:
+      permalink: true
+      toc_depth: 4
 
 plugins:
   - git-revision-date
