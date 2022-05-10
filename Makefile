@@ -6,7 +6,7 @@ serve:
 	pipenv run mkdocs serve
 
 update-requirements:
-	pipenv requirements  > requirements.txt
+	pipenv requirements --dev  > requirements.txt
 
 deploy:
 	pipenv run mkdocs gh-deploy --force
