@@ -50,3 +50,8 @@ markdown_extensions:
 
 plugins:
   - git-revision-date
+
+extra:
+  analytics:
+    provider: google
+    property: G-SDLZ6HNXX9
