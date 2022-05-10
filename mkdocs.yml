@@ -1,3 +1,16 @@
 site_name: MKDocs example
 site_description: Using mkdocs for static site generation
 site_author: Michael Brewer
+repo_url: https://github.com/michaelbrewer/mkdocs-example
+edit_uri: edit/main/docs
+
+theme:
+  name: material
+  font:
+    text: Ubuntu
+
+markdown_extensions:
+  - pymdownx.superfences:
+
+plugins:
+  - git-revision-date
