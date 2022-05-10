@@ -1,4 +1,4 @@
-# Initial blank slate
+# Instructions
 
 This is the initial blank slate.
 
@@ -17,3 +17,10 @@ pipenv run mkdocs new .
 ```
 
 Initial configuration is done in the `mkdocs.yml` file.
+
+Enable the Material theme in the `mkdocs.yml` file.
+
+```yaml
+theme:
+  name: material
+```
