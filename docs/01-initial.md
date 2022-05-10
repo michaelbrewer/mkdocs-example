@@ -54,7 +54,7 @@ Ensure github actions has read and write access to the repository.
 ![Github actions permissions](./media/github-actions-light.png#gh-light-mode-only)
 ![Github actions permissions](./media/github-actions-dark.png#gh-dark-mode-only)
 
-Add `.github/workflows/pages.yml` to the repository
+Add the following `.github/workflows/pages.yml` to the repository
 
 ```yaml
 name: ci 
@@ -90,3 +90,8 @@ jobs:
     - name: Deploy to github pages
       run: make deploy
 ```
+
+Once the workflow is deployed, update github pages to point to the new `gh-pages` branch
+
+![Github pages](./media/github-pages-light.png#gh-light-mode-only)
+![Github pages](./media/github-pages-dark.png#gh-dark-mode-only)
