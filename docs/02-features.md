@@ -1,5 +1,7 @@
 # Features
 
+Cool features for mkdocs
+
 ## Admonitions
 
 Admonitions, also known as _call-outs_ and see [MKDocs: Admonitions](https://squidfunk.github.io/mkdocs-material/reference/admonitions/){target="_blank"}
