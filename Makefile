@@ -1,6 +1,6 @@
 dev:
 	pip3 install -U pip pipenv
-	pipenv install
+	pipenv install --dev
 
 serve:
 	pipenv run mkdocs serve
