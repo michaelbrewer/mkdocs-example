@@ -13,3 +13,7 @@ make dev
 ```shell
 make serve
 ```
+
+## Requirements
+
+This project requires Python 3.9+ be installed (although MKDocs also run with Python 3.7+)
