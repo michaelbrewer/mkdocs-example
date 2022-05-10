@@ -7,7 +7,7 @@ on:
       - '.github/workflows/pages.yml'
       - 'docs/*'
       - 'mkdocs.yml'
-      - 'requirements.txt'
+      - 'Pipfile.lock'
       - 'Makefile'
 
 jobs:
@@ -26,7 +26,7 @@ jobs:
       run: pip install -U pip pipenv
 
     - name: Install mkdocs dependencies
-      run: pip install -r requirements.txt
+      run: make dev
 
     - name: Deploy to github pages
-      run: mkdocs gh-deploy --force
+      run: make deploy
