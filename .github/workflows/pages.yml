@@ -7,7 +7,7 @@ on:
       - '.github/workflows/pages.yml'
       - 'docs/*'
       - 'mkdocs.yml'
-      - 'Pipfile.lock'
+      - 'requirements.txt'
       - 'Makefile'
 
 jobs:
